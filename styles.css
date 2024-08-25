@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2109d7;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+h1 {
+    color: rgb(12, 217, 18);
+    text-align: center;
+    font-size: 100px;
+}
+h3 {
+    color: rgb(190, 214, 70);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.digit {
+    font-size: 150px;
+    color: #a31818;
+}
+
+.txt {
+    font-size: 30px;
+    color: #e7d915;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-size: 150px;
+    color: hsl(0, 7%, 94%);
+}
+.controls button {
+    
+    width: 200px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+    color: rgb(12, 12, 12);
+    font-weight: 500;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    font-size: 25px;
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+}
+
+#lapList li {
+    background-color: #b39c6c;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 50px;
+}
+#start {
+    background-color: #009779;
+}
+
+#stop {
+    background-color: #e4e40e;
+}
+
+#reset {
+    background-color: #c91400;
+}
+#lap {
+    background-color: rgb(133, 121, 180);
+}
